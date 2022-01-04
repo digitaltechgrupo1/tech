@@ -1,1 +1,1 @@
-# tech
+#  plataforma de todo tipo de tecnologia con los mejores servicions y los mejores componentes
