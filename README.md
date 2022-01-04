@@ -1,1 +1,8 @@
-#  plataforma de todo tipo de tecnologia con los mejores servicions y los mejores componentes
+- Temática y descripción del sitio: e-commerce de tecnologia
+- Publico objetivo: publico en general
+- Listado de 5 páginas referentes en las que se basa su proyecto:
+- Listado del grupo con una breve descripción de cada uno:
+    - Yanneth Carrasco
+    - Guido Restaino
+    - Sergio Almeciga
+- Link del tablero de trabajo en donde se encuentran trabajando: https://trello.com/b/ypnXUyUK/proyecto
