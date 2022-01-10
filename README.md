@@ -1,4 +1,4 @@
-- Temática y descripción del sitio: e-commerce de tecnologia
+- Temática y descripción del sitio: e-commerce de tecnologia , encotraras todo el tema de tecnologia y dispositivos de tu interes, una pagina donde conoceras la nueva generacion tenologica.
 - Publico objetivo: publico en general
 - Listado de 5 páginas referentes en las que se basa su proyecto:
     - https://www.logg.com.ar/
