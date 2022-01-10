@@ -8,7 +8,7 @@
     - https://www.compragamer.com/
 
 - Listado del grupo con una breve descripción de cada uno:
-    - Yanneth Carrasco
+    - Yanneth Carrasco: Tengo 26 años, soy de Colombia, profesional en Relaciones Economicas Internacionales, pero estoy buscando fortalecer mi perfil profesional y por eso elegi la programación.
 
     - Guido Restaino : Tengo 30 años disfruto de la musica,videojuegos,series/peliculas tambien me gusta cocinar, siempre me llamo la atencion la programacion pero nunca me decidí a seguir un curso hasta que me animé con digitalhouse
 
