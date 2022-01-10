@@ -5,6 +5,7 @@
     - https://nova-smarthome.ueno.co/
     - https://www.skullcandy.com/
     - https://www.soflow.com/
+    - https://www.compragamer.com/
 
 - Listado del grupo con una breve descripción de cada uno:
     - Yanneth Carrasco
