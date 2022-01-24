@@ -3,7 +3,7 @@ const app=express()
 const path= require("path")
 
 app.get('/', (req,res)=>{
-    res.send("ahora si entre")
+    res.send("home")
 })
 
 app.get('/login', (req,res)=>{
