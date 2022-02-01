@@ -33,7 +33,7 @@ body {
     width: 20rem;
     margin: auto;
     border: solid 10px rgb(179, 179, 245);
-    padding: 2.5rem 2rem;
+    padding: 1.5rem 1rem;
     display: flex;
     flex-direction: column;
     max-width: 300px;
@@ -74,9 +74,9 @@ body {
 .form_input {
     width: 100%;
     background: none;
-    color: cornsilk;
-    font-size: 1rem;
-    padding: .6rem .3rem;
+    color: black;
+    font-size: 1.2rem;
+    padding: .4rem .3rem;
     border: none;
     outline: none;
     border-bottom: 1px solid steelblue;
@@ -85,6 +85,14 @@ body {
 }
 
 .form_label {
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: -15px;
+    left: 5px;
+}
+
+.form_label2 {
     color: var(--color);
     cursor: pointer;
     position: absolute;
