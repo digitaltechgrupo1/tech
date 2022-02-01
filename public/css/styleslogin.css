@@ -1,5 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+
 header{
-    background-color: rgb(43, 43, 38);
+    background-color: rgb(180, 180, 178);
+    margin: 0px;
+    padding: 0px;  
 }
 
 .formulario{
@@ -12,6 +21,110 @@ header{
     border: 15px solid #ffffff;
     
 }
+
+.menu {
+   display: flex;
+  
+    color: black;
+}
+nav{
+    display: flex;
+    font-size: 15px;
+    
+}
+
+ul li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 50px;
+}
+ul li a{
+    
+    text-decoration: none;
+    color: #000;
+}
+
+.informacion{
+    background-color: white;    
+    margin: 1px 0px;
+}
+ 
+.articulos img{
+    width: 100%;
+}
+
+ .articulos i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    position: absolute;
+    right: 95px;
+    top: 65px;
+}
+.productos .articulos:hover i{
+    transform: rotate(-90deg)
+}
+
+
+.articulos .informacion{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #181717;
+    position: relative;
+    padding: 10px;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+    
+.productos .articulos{
+    width: 20%;
+}
+
+.boton{
+
+    width: 70%;
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    position: absolute;
+    right: 80px;
+    top: 60px;
+
+}
+
+
+.descripcion{
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+    
+}
+
+.precio{
+    position: absolute;
+    top: 35px;
+    display: block;
+    color: #000000;
+    
+}
+
+
+
+
+    
 
 @media only screen and (min-width: 400px) {}
 @media only screen and (max-width: 400px) and (min-width: 400px) and (orientation: landscape) {}
