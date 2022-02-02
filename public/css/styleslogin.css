@@ -1,55 +1,52 @@
-*{
+* {
     margin: 0px;
-    padding: 0px;    
+    padding: 0px;
     box-sizing: border-box;
 }
 
-
-header{
+header {
     background-color: rgb(180, 180, 178);
     margin: 0px;
-    padding: 0px;  
+    padding: 0px;
 }
 
-.formulario{
+.formulario {
     background-color: rgb(255, 255, 255);
     width: auto;
     height: auto;
     text-align: center;
-    margin:auto;
+    margin: auto;
     box-sizing: border-box;
     border: 15px solid #ffffff;
-    
 }
 
 .menu {
-   display: flex;
-  
+    display: flex;
     color: black;
 }
-nav{
+
+nav {
     display: flex;
     font-size: 15px;
-    
 }
 
-ul li{
+ul li {
     display: inline;
     list-style-type: none;
     margin-left: 50px;
 }
-ul li a{
-    
+
+ul li a {
     text-decoration: none;
     color: #000;
 }
 
-.informacion{
-    background-color: white;    
+.informacion {
+    background-color: white;
     margin: 1px 0px;
 }
- 
-.articulos img{
+
+.articulos img {
     width: 50%;
 }
 
@@ -64,12 +61,12 @@ ul li a{
     right: 95px;
     top: 65px;
 }
-.productos .articulos:hover i{
+
+.productos .articulos:hover i {
     transform: rotate(-90deg)
 }
 
-
-.articulos .informacion{
+.articulos .informacion {
     display: none;
     width: 100%;
     display: flex;
@@ -80,22 +77,19 @@ ul li a{
     padding: 10px;
 }
 
-.productos{
+.productos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
-    
-.productos .articulos{
+
+.productos .articulos {
     width: 25%;
     margin: 0 auto;
-   
 }
 
-.boton{
-
+.boton {
     width: 100%;
     font-size: 16px;
     font-weight: normal;
@@ -103,47 +97,35 @@ ul li a{
     text-align: left;
     right: 80px;
     top: 60px;
-
 }
 
-
-.descripcion{
-    
+.descripcion {
     display: block;
     font-size: 20px;
     font-weight: normal;
     color: #000000;
-    
 }
 
-.precio{
-    
+.precio {
     top: 35px;
     display: block;
     color: #000000;
-    
 }
 
-@media (max-width: 430px){
-    .productos .articulos{
-        
+@media (max-width: 430px) {
+    .productos .articulos {
         width: 100%;
     }
-
-    
 }
 
-main{
+main {
     text-align: center;
 }
 
-@media (max-width: 430px){
-    .boton{
-        
+@media (max-width: 430px) {
+    .boton {
         width: 100%;
     }
-
-    
 }
 
 @media (min-width: 361px){
@@ -160,5 +142,25 @@ main{
 } 
 
 @media only screen and (min-width: 400px) {}
+
 @media only screen and (max-width: 400px) and (min-width: 400px) and (orientation: landscape) {}
 
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(235, 235, 235);
+}
+
+.card {
+    padding: 10px 15px;
+    margin: 15px 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
