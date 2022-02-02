@@ -54,7 +54,7 @@ ul li a{
 }
 
  .articulos i{
-    display: block;
+    display:none;
     font-size: 16px;
     padding: 5px;
     width: 30px;
@@ -147,11 +147,17 @@ main{
 }
 
 @media (min-width: 361px){
-    .informacion:hover .boton{
+    .productos  :hover .boton{
         display: block;
     }
 
-}    
+}
+@media (min-width: 361px){
+    .productos  :hover i{
+        display: block;
+    }
+
+} 
 
 @media only screen and (min-width: 400px) {}
 @media only screen and (max-width: 400px) and (min-width: 400px) and (orientation: landscape) {}
